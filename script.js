@@ -15,3 +15,8 @@ function  equalClick()
     var result=eval(text)
     document.getElementById("screen").value=result
 } 
+function BackButton(){
+    var txt = document.getElementById("txt").value;
+    txt = txt.slice(0,-1);
+    document.getElementById("txt").value = txt;
+}
