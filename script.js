@@ -16,7 +16,7 @@ function  equalClick()
     document.getElementById("screen").value=result
 } 
 function BackButton(){
-    var txt = document.getElementById("txt").value;
+    var txt = document.getElementById("screen").value;
     txt = txt.slice(0,-1);
-    document.getElementById("txt").value = txt;
+    document.getElementById("screen").value = txt;
 }
